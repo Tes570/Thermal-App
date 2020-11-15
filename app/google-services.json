@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "699483535817",
+    "firebase_url": "https://ee175b21.firebaseio.com",
+    "project_id": "ee175b21",
+    "storage_bucket": "ee175b21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699483535817:android:ad6a4b95d8d1eaa3b21018",
+        "android_client_info": {
+          "package_name": "com.example.tempcontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699483535817-898nepjhnfmfo3tl3b5cc8d3tdn8kdgu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tempcontrol",
+            "certificate_hash": "7d1a925204b112767ca9f3418b03cef4760fd22a"
+          }
+        },
+        {
+          "client_id": "699483535817-ncnfv9tgi08q8r76mp2eu8qh4uag4qns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoSEH-t7GxQg2P-Ym9LGVreAov5TRM59g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699483535817-ncnfv9tgi08q8r76mp2eu8qh4uag4qns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
