@@ -172,7 +172,8 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        PostValues.addListenerForSingleValueEvent(SetListener);
+        //PostValues.addListenerForSingleValueEvent(SetListener);
+        PostValues.addValueEventListener(SetListener);
 
 
         // [END post_value_event_listener]
