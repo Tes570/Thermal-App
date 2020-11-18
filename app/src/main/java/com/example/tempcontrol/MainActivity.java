@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
+    
 
 
     @Override
@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
         FloatingActionButton fab = findViewById(R.id.fab);
+
+        //testing
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("message");
