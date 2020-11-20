@@ -22,10 +22,10 @@ import java.util.Vector;
 public class MainActivity extends AppCompatActivity {
 
 
-    //The database where we get the current room temp
+    //The database where we get the current room  temp
     private DatabaseReference GetValues;
 
-    //the database where we post the room settins
+    //the database where we post the room settins 
     private DatabaseReference PostValues;
 
     private int RoomNum = 3;
