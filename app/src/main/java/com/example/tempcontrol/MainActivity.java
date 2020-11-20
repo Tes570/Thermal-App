@@ -82,8 +82,24 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                String Stemp = "";
 
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Stemp += "GetTemp: ";
+
+                for(int i = 0; i < RoomNum; ++i)
+                {
+                    Stemp += String.valueOf(GetTemp.elementAt(i)) + " ";
+                }
+
+                Stemp += "PostTemp: ";
+
+                for(int i = 0; i < RoomNum; ++i)
+                {
+                    Stemp += String.valueOf(PostTemp.elementAt(i)) + " ";
+                }
+
+
+                Snackbar.make(view, Stemp, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
