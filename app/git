@@ -1,0 +1,413 @@
+<pre><font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch placeholder
+Your branch is up to date with &apos;origin/placeholder&apos;.
+
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch
+* <font color="#4E9A06">placeholder</font>
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git remote add
+usage: git remote add [&lt;options&gt;] &lt;name&gt; &lt;url&gt;
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track &lt;branch&gt;  branch(es) to track
+    -m, --master &lt;branch&gt;
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch placeholder
+Your branch is up to date with &apos;origin/placeholder&apos;.
+
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git remote add https://github.com/Tes570/Thermal-App.git
+usage: git remote add [&lt;options&gt;] &lt;name&gt; &lt;url&gt;
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track &lt;branch&gt;  branch(es) to track
+    -m, --master &lt;branch&gt;
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch placeholder
+Your branch is up to date with &apos;origin/placeholder&apos;.
+
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push origin placeholder
+Username for &apos;https://github.com&apos;: Tes570
+Password for &apos;https://Tes570@github.com&apos;: 
+remote: Invalid username or password.
+fatal: Authentication failed for &apos;https://github.com/Tes570/Thermal-App.git/&apos;
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push origin placeholder
+Username for &apos;https://github.com&apos;: Test570
+Password for &apos;https://Test570@github.com&apos;: 
+remote: Invalid username or password.
+fatal: Authentication failed for &apos;https://github.com/Tes570/Thermal-App.git/&apos;
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push origin placeholder
+Username for &apos;https://github.com&apos;: Tes570
+Password for &apos;https://Tes570@github.com&apos;: 
+Everything up-to-date
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch placeholder
+Your branch is up to date with &apos;origin/placeholder&apos;.
+
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch
+* <font color="#4E9A06">placeholder</font>
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push https://github.com/Tes570/Thermal-App.git
+Username for &apos;https://github.com&apos;: Tes570
+Password for &apos;https://Tes570@github.com&apos;: 
+Everything up-to-date
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch placeholder
+Your branch is up to date with &apos;origin/placeholder&apos;.
+
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch
+* <font color="#4E9A06">placeholder</font>
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch button
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch placeholder
+Your branch is up to date with &apos;origin/placeholder&apos;.
+
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git checkout button
+Switched to branch &apos;button&apos;
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch button
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push placeholder:button
+ssh: Could not resolve hostname placeholder: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ ^C
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git remote set-url origin https://github.com/Tes570/Thermal-App.git
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch button
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch
+* <font color="#4E9A06">button</font>
+  placeholder
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push placeholder:button
+ssh: Could not resolve hostname placeholder: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git remote set-url origin https://github.com/Tes570/Thermal-App.git
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch button
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch
+* <font color="#4E9A06">button</font>
+  placeholder
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git fetch
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch button
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch
+* <font color="#4E9A06">button</font>
+  placeholder
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git fetch --all
+Fetching origin
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git staus
+git: &apos;staus&apos; is not a git command. See &apos;git --help&apos;.
+
+The most similar command is
+	status
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch button
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch
+* <font color="#4E9A06">button</font>
+  placeholder
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch -a
+* <font color="#4E9A06">button</font>
+  placeholder
+  <font color="#CC0000">remotes/origin/HEAD</font> -&gt; origin/placeholder
+  <font color="#CC0000">remotes/origin/button</font>
+  <font color="#CC0000">remotes/origin/master</font>
+  <font color="#CC0000">remotes/origin/placeholder</font>
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git checkout origin/placeholder
+Note: switching to &apos;origin/placeholder&apos;.
+
+You are in &apos;detached HEAD&apos; state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c &lt;new-branch-name&gt;
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 8cd8ef3 Working app. Gets variable from firebase and updates when changed
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch
+* <font color="#4E9A06">(HEAD detached at origin/placeholder)</font>
+  button
+  placeholder
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git switch placeholder
+Switched to branch &apos;placeholder&apos;
+Your branch is up to date with &apos;origin/placeholder&apos;.
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch
+  button
+* <font color="#4E9A06">placeholder</font>
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git switch master
+Branch &apos;master&apos; set up to track remote branch &apos;master&apos; from &apos;origin&apos;.
+Switched to a new branch &apos;master&apos;
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch
+  button
+* <font color="#4E9A06">master</font>
+  placeholder
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git switch button
+Switched to branch &apos;button&apos;
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git pull button
+fatal: &apos;button&apos; does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git checkout button
+Already on &apos;button&apos;
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push placeholder:button
+ssh: Could not resolve hostname placeholder: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch
+* <font color="#4E9A06">button</font>
+  master
+  placeholder
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git checkout placeholder
+Switched to branch &apos;placeholder&apos;
+Your branch is up to date with &apos;origin/placeholder&apos;.
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git pull
+Already up to date.
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push
+Username for &apos;https://github.com&apos;: Test570
+Password for &apos;https://Test570@github.com&apos;: 
+remote: Invalid username or password.
+fatal: Authentication failed for &apos;https://github.com/Tes570/Thermal-App.git/&apos;
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push
+Username for &apos;https://github.com&apos;: Tes570
+Password for &apos;https://Tes570@github.com&apos;: 
+Everything up-to-date
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch placeholder
+Your branch is up to date with &apos;origin/placeholder&apos;.
+
+Changes not staged for commit:
+  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)
+	<font color="#CC0000">modified:   app/src/main/java/com/example/tempcontrol/MainActivity.java</font>
+
+no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git add .
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git commit -m &quot;Testing new Repo&quot;
+[placeholder d1f2aac] Testing new Repo
+ 1 file changed, 17 insertions(+), 1 deletion(-)
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push
+Username for &apos;https://github.com&apos;: Tes570
+Password for &apos;https://Tes570@github.com&apos;: 
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (10/10), 885 bytes | 295.00 KiB/s, done.
+Total 10 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Tes570/Thermal-App.git
+   8cd8ef3..d1f2aac  placeholder -&gt; placeholder
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch placeholder
+Your branch is up to date with &apos;origin/placeholder&apos;.
+
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch
+  button
+  master
+* <font color="#4E9A06">placeholder</font>
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push placeholder:button
+ssh: Could not resolve hostname placeholder: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git checkout button
+Switched to branch &apos;button&apos;
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch button
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git add .
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git commit -m &quot;testing button&quot;
+On branch button
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push
+fatal: The current branch button has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin button
+
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push origin button
+Username for &apos;https://github.com&apos;: Tes570
+Password for &apos;https://Tes570@github.com&apos;: 
+Everything up-to-date
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch button
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch
+* <font color="#4E9A06">button</font>
+  master
+  placeholder
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push placeholder:button
+ssh: Could not resolve hostname placeholder: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git pull button
+fatal: &apos;button&apos; does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch
+* <font color="#4E9A06">button</font>
+  master
+  placeholder
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git checkout button
+Already on &apos;button&apos;
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ ^C
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push --set-upstream origin button
+Username for &apos;https://github.com&apos;: Tes570
+Password for &apos;https://Tes570@github.com&apos;: 
+remote: Invalid username or password.
+fatal: Authentication failed for &apos;https://github.com/Tes570/Thermal-App.git/&apos;
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push --set-upstream origin button
+Username for &apos;https://github.com&apos;: Tes570
+Password for &apos;https://Tes570@github.com&apos;: 
+Branch &apos;button&apos; set up to track remote branch &apos;button&apos; from &apos;origin&apos;.
+Everything up-to-date
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push placeholder:button
+ssh: Could not resolve hostname placeholder: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git checkout button
+Already on &apos;button&apos;
+Your branch is up to date with &apos;origin/button&apos;.
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch button
+Your branch is up to date with &apos;origin/button&apos;.
+
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git add .
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git commit -m &quot;test&quot;
+On branch button
+Your branch is up to date with &apos;origin/button&apos;.
+
+nothing to commit, working tree clean
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push
+Username for &apos;https://github.com&apos;: Tes570
+Password for &apos;https://Tes570@github.com&apos;: 
+Everything up-to-date
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git checkout placeholder
+Switched to branch &apos;placeholder&apos;
+Your branch is up to date with &apos;origin/placeholder&apos;.
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git pull
+Already up to date.
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git checkout button
+Switched to branch &apos;button&apos;
+Your branch is up to date with &apos;origin/button&apos;.
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push origin button
+Username for &apos;https://github.com&apos;: Tes570
+Password for &apos;https://Tes570@github.com&apos;: 
+Everything up-to-date
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push origin placeholder:button
+Username for &apos;https://github.com&apos;: Tes570
+Password for &apos;https://Tes570@github.com&apos;: 
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/Tes570/Thermal-App.git
+   8cd8ef3..d1f2aac  placeholder -&gt; button
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git checkout button
+Already on &apos;button&apos;
+Your branch is behind &apos;origin/button&apos; by 1 commit, and can be fast-forwarded.
+  (use &quot;git pull&quot; to update your local branch)
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch button
+Your branch is behind &apos;origin/button&apos; by 1 commit, and can be fast-forwarded.
+  (use &quot;git pull&quot; to update your local branch)
+
+Changes not staged for commit:
+  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)
+	<font color="#CC0000">modified:   app/src/main/java/com/example/tempcontrol/MainActivity.java</font>
+
+no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git add .
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git commit -m &quot;testing&quot;
+[button 40b0630] testing
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push
+Username for &apos;https://github.com&apos;: Tes570
+Password for &apos;https://Tes570@github.com&apos;: 
+To https://github.com/Tes570/Thermal-App.git
+ <font color="#CC0000">! [rejected]       </font> button -&gt; button (non-fast-forward)
+<font color="#CC0000">error: failed to push some refs to &apos;https://github.com/Tes570/Thermal-App.git&apos;</font>
+<font color="#C4A000">hint: Updates were rejected because the tip of your current branch is behind</font>
+<font color="#C4A000">hint: its remote counterpart. Integrate the remote changes (e.g.</font>
+<font color="#C4A000">hint: &apos;git pull ...&apos;) before pushing again.</font>
+<font color="#C4A000">hint: See the &apos;Note about fast-forwards&apos; in &apos;git push --help&apos; for details.</font>
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git pull
+Auto-merging app/src/main/java/com/example/tempcontrol/MainActivity.java
+Merge made by the &apos;recursive&apos; strategy.
+ .../java/com/example/tempcontrol/MainActivity.java     | 18 <font color="#4E9A06">+++++++++++++++++</font><font color="#CC0000">-</font>
+ 1 file changed, 17 insertions(+), 1 deletion(-)
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git status
+On branch button
+Your branch is ahead of &apos;origin/button&apos; by 2 commits.
+  (use &quot;git push&quot; to publish your local commits)
+
+Changes not staged for commit:
+  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)
+	<font color="#CC0000">modified:   app/src/main/java/com/example/tempcontrol/MainActivity.java</font>
+
+no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git add .
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git commit -m &quot;testing&quot;
+[button d745d71] testing
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git push
+Username for &apos;https://github.com&apos;: Tes570
+Password for &apos;https://Tes570@github.com&apos;: 
+Enumerating objects: 48, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (30/30), 2.32 KiB | 297.00 KiB/s, done.
+Total 30 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas: 100% (9/9), completed with 4 local objects.
+To https://github.com/Tes570/Thermal-App.git
+   d1f2aac..d745d71  button -&gt; button
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ git branch
+* <font color="#4E9A06">button</font>
+  master
+<font color="#4E9A06"><b>lint-river@lintriver-Aspire-E5-576G</b></font>:<font color="#3465A4"><b>~/AndroidStudioProjects/Delete/Thermal-App</b></font>$ 
+
+</pre>
