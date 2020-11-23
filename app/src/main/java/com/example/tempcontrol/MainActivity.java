@@ -29,8 +29,6 @@ public class MainActivity extends AppCompatActivity {
     private DatabaseReference PostValues;
 
     private int RoomNum = 3;
-    int testingVal = 0;
-
 
     //This is where the temp of the rooms is saved. It will load whenever there is a change.
     Vector GetTemp;
@@ -65,17 +63,7 @@ public class MainActivity extends AppCompatActivity {
         PostValues = FirebaseDatabase.getInstance().getReference("Demo").child("Room Setting");
 
 
-        /*
-        //This is to set the variables in firebase. Run this to reset the room temp.
-        int tes = 70;
-        for(int i = 0; i < RoomNum; ++i)
-        {
-            GetValues.child("room" + String.valueOf(i)).setValue(tes);
-            PostValues.child("room" + String.valueOf(i)).setValue(tes);
-        }
-        //*/
 
-        //How to get the variable from firebase? Look at onStart
 
 
         fab.setOnClickListener(new View.OnClickListener() {
@@ -123,11 +111,8 @@ public class MainActivity extends AppCompatActivity {
                 {
                     for(int i = 0; i < RoomNum; ++i)
                     {
-                        //GetTemp.add(Integer.parseInt(dataSnapshot.child("room" + String.valueOf(i)).getValue().toString()));
                         GetTemp.add(dataSnapshot.child("room" + String.valueOf(i)).getValue());
                         Log.d("myTag" + String.valueOf(i), String.valueOf(GetTemp.elementAt(i)));
-                        //Log.d("Tes" + String.valueOf(i), String.valueOf(GetTemp.size()));
-
                     }
                 }
                 else
@@ -140,16 +125,11 @@ public class MainActivity extends AppCompatActivity {
                 }
 
 
-                //temp = Integer.parseInt(dataSnapshot.child("room1").getValue().toString());
-                //Log.d("myTag", String.valueOf(temp));
-                // [END_EXCLUDE]
             }
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-                // Getting Post failed, log a message
 
-                // [END_EXCLUDE]
             }
         };
 
@@ -163,7 +143,6 @@ public class MainActivity extends AppCompatActivity {
 
                 if(PostTemp.size() <= 1) {
                     for (int i = 0; i < RoomNum; ++i) {
-                        //PostTemp.add(Integer.parseInt(dataSnapshot.child("room" + String.valueOf(i)).getValue().toString()));
                         PostTemp.add(dataSnapshot.child("room" + String.valueOf(i)).getValue());
                         Log.d("setTag" + String.valueOf(i), String.valueOf(PostTemp.elementAt(i)));
                     }
@@ -172,22 +151,16 @@ public class MainActivity extends AppCompatActivity {
                 {
                     for(int i = 0; i < RoomNum; ++i)
                     {
-                        //PostTemp.setElementAt((Integer.parseInt(dataSnapshot.child("room" + String.valueOf(i)).getValue().toString())), i);
                         PostTemp.setElementAt((dataSnapshot.child("room" + String.valueOf(i)).getValue()), i);
                         Log.d("myTag" + String.valueOf(i), String.valueOf(PostTemp.elementAt(i)));
                     }
                 }
 
-                //temp = Integer.parseInt(dataSnapshot.child("room1").getValue().toString());
-                //Log.d("myTag", String.valueOf(temp));
-                // [END_EXCLUDE]
             }
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-                // Getting Post failed, log a message
 
-                // [END_EXCLUDE]
             }
         };
 
