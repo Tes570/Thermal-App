@@ -82,8 +82,24 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                String Stemp = "";
 
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Stemp += "GetTemp: ";
+
+                for(int i = 0; i < RoomNum; ++i)
+                {
+                    Stemp += String.valueOf(GetTemp.elementAt(i)) + " ";
+                }
+
+                Stemp += "PostTemp: ";
+
+                for(int i = 0; i < RoomNum; ++i)
+                {
+                    Stemp += String.valueOf(PostTemp.elementAt(i)) + " ";
+                }
+
+
+                Snackbar.make(view, Stemp, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -107,7 +123,8 @@ public class MainActivity extends AppCompatActivity {
                 {
                     for(int i = 0; i < RoomNum; ++i)
                     {
-                        GetTemp.add(Integer.parseInt(dataSnapshot.child("room" + String.valueOf(i)).getValue().toString()));
+                        //GetTemp.add(Integer.parseInt(dataSnapshot.child("room" + String.valueOf(i)).getValue().toString()));
+                        GetTemp.add(dataSnapshot.child("room" + String.valueOf(i)).getValue());
                         Log.d("myTag" + String.valueOf(i), String.valueOf(GetTemp.elementAt(i)));
                         //Log.d("Tes" + String.valueOf(i), String.valueOf(GetTemp.size()));
 
@@ -117,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     for(int i = 0; i < GetTemp.size(); ++i)
                     {
-                        GetTemp.setElementAt((Integer.parseInt(dataSnapshot.child("room" + String.valueOf(i)).getValue().toString())), i);
+                        GetTemp.setElementAt((dataSnapshot.child("room" + String.valueOf(i)).getValue()), i);
                         Log.d("myTag" + String.valueOf(i), String.valueOf(GetTemp.elementAt(i)));
                     }
                 }
@@ -146,7 +163,8 @@ public class MainActivity extends AppCompatActivity {
 
                 if(PostTemp.size() <= 1) {
                     for (int i = 0; i < RoomNum; ++i) {
-                        PostTemp.add(Integer.parseInt(dataSnapshot.child("room" + String.valueOf(i)).getValue().toString()));
+                        //PostTemp.add(Integer.parseInt(dataSnapshot.child("room" + String.valueOf(i)).getValue().toString()));
+                        PostTemp.add(dataSnapshot.child("room" + String.valueOf(i)).getValue());
                         Log.d("setTag" + String.valueOf(i), String.valueOf(PostTemp.elementAt(i)));
                     }
                 }
@@ -154,7 +172,8 @@ public class MainActivity extends AppCompatActivity {
                 {
                     for(int i = 0; i < RoomNum; ++i)
                     {
-                        PostTemp.setElementAt((Integer.parseInt(dataSnapshot.child("room" + String.valueOf(i)).getValue().toString())), i);
+                        //PostTemp.setElementAt((Integer.parseInt(dataSnapshot.child("room" + String.valueOf(i)).getValue().toString())), i);
+                        PostTemp.setElementAt((dataSnapshot.child("room" + String.valueOf(i)).getValue()), i);
                         Log.d("myTag" + String.valueOf(i), String.valueOf(PostTemp.elementAt(i)));
                     }
                 }
