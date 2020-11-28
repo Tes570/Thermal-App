@@ -1,5 +1,6 @@
 package com.example.tempcontrol;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -57,14 +58,15 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
         FloatingActionButton fab = findViewById(R.id.fab);
-        
+
         Button Edit1 = (Button) findViewById(R.id.Bedroom1);
 
         Edit1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.i("TempApp", "Button 1 being clicked!");
-                Toast.makeText(getApplicationContext(), "Edit Temp for B1", Toast.LENGTH_SHORT).show();
+//                Log.i("TempApp", "Button 1 being clicked!");
+//                Toast.makeText(getApplicationContext(), "Edit Temp for B1", Toast.LENGTH_SHORT).show();
+                moveToActivityButton();
             }
         });
 
@@ -73,8 +75,9 @@ public class MainActivity extends AppCompatActivity {
         Edit2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.i("TempApp", "Button 2 being clicked!");
-                Toast.makeText(getApplicationContext(), "Edit Temp for B2", Toast.LENGTH_SHORT).show();
+//                Log.i("TempApp", "Button 2 being clicked!");
+//                Toast.makeText(getApplicationContext(), "Edit Temp for B2", Toast.LENGTH_SHORT).show();
+                moveToActivityButton();
             }
         });
 
@@ -83,8 +86,9 @@ public class MainActivity extends AppCompatActivity {
         Edit3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.i("TempApp", "Button 3 being clicked!");
-                Toast.makeText(getApplicationContext(), "Edit Temp for B3", Toast.LENGTH_SHORT).show();
+//                Log.i("TempApp", "Button 3 being clicked!");
+//                Toast.makeText(getApplicationContext(), "Edit Temp for B3", Toast.LENGTH_SHORT).show();
+                moveToActivityButton();
             }
         });
 
@@ -97,7 +101,6 @@ public class MainActivity extends AppCompatActivity {
         PostValues = FirebaseDatabase.getInstance().getReference("Demo").child("Room Setting");
 
 
-        /*
         //This is to set the variables in firebase. Run this to reset the room temp.
         int tes = 70;
         for(int i = 0; i < RoomNum; ++i)
@@ -105,7 +108,6 @@ public class MainActivity extends AppCompatActivity {
             GetValues.child("room" + String.valueOf(i)).setValue(tes);
             PostValues.child("room" + String.valueOf(i)).setValue(tes);
         }
-        //*/
 
         //How to get the variable from firebase? Look at onStart
 
@@ -216,7 +218,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
+    private void moveToActivityButton() {
+        Intent nextActivity = new Intent(MainActivity.this, ButtonPressActivity.class);
+        startActivity(nextActivity);
+    }
 
 
 
