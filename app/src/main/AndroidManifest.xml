@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TempControl">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/keyboard" />
+
+        <activity android:name=".ButtonPressActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
