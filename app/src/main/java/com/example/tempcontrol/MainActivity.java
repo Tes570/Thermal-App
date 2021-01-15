@@ -1,16 +1,17 @@
 package com.example.tempcontrol;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.tempcontrol.ui.main.SectionsPagerAdapter;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -47,12 +48,41 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
         ViewPager viewPager = findViewById(R.id.view_pager);
-        viewPager.setAdapter(sectionsPagerAdapter);
-        TabLayout tabs = findViewById(R.id.tabs);
-        tabs.setupWithViewPager(viewPager);
-        FloatingActionButton fab = findViewById(R.id.fab);
+
+
+        Button Edit1 = (Button) findViewById(R.id.Bedroom1);
+
+        Edit1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                Log.i("TempApp", "Button 1 being clicked!");
+//                Toast.makeText(getApplicationContext(), "Edit Temp for B1", Toast.LENGTH_SHORT).show();
+                moveToActivityButton();
+            }
+        });
+
+        Button Edit2 = (Button) findViewById(R.id.Bedroom2);
+
+        Edit2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                Log.i("TempApp", "Button 2 being clicked!");
+//                Toast.makeText(getApplicationContext(), "Edit Temp for B2", Toast.LENGTH_SHORT).show();
+                moveToActivityButton();
+            }
+        });
+
+        Button Edit3 = (Button) findViewById(R.id.Bedroom3);
+
+        Edit3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                Log.i("TempApp", "Button 3 being clicked!");
+//                Toast.makeText(getApplicationContext(), "Edit Temp for B3", Toast.LENGTH_SHORT).show();
+                moveToActivityButton();
+            }
+        });
 
         //testing
 
@@ -63,34 +93,15 @@ public class MainActivity extends AppCompatActivity {
         PostValues = FirebaseDatabase.getInstance().getReference("Demo").child("Room Setting");
 
 
+        //This is to set the variables in firebase. Run this to reset the room temp.
+        int tes = 70;
+        for(int i = 0; i < RoomNum; ++i)
+        {
+            GetValues.child("room" + String.valueOf(i)).setValue(tes);
+            PostValues.child("room" + String.valueOf(i)).setValue(tes);
+        }
 
 
-
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                String Stemp = "";
-
-                Stemp += "GetTemp: ";
-
-                for(int i = 0; i < RoomNum; ++i)
-                {
-                    Stemp += String.valueOf(GetTemp.elementAt(i)) + " ";
-                }
-
-                Stemp += "PostTemp: ";
-
-                for(int i = 0; i < RoomNum; ++i)
-                {
-                    Stemp += String.valueOf(PostTemp.elementAt(i)) + " ";
-                }
-
-
-                Snackbar.make(view, Stemp, Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
     }
 
 
@@ -176,7 +187,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
+    private void moveToActivityButton() {
+        Intent nextActivity = new Intent(MainActivity.this, ButtonPressActivity.class);
+        startActivity(nextActivity);
+    }
 
 
 
