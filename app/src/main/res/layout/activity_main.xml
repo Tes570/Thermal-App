@@ -62,10 +62,11 @@
             android:layout_weight="1"
             android:minHeight="?actionBarSize"
             android:padding="@dimen/appbar_padding"
-            android:text="Current temp: 50"
+            android:text="Current temp"
             android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
 
         <ImageView
+            android:id="@+id/image1"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_weight="1"
@@ -94,10 +95,11 @@
                 android:layout_weight="1"
                 android:minHeight="?actionBarSize"
                 android:padding="@dimen/appbar_padding"
-                android:text="Current temp: 100"
+                android:text="Current temp"
                 android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
 
             <ImageView
+                android:id="@+id/image2"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
@@ -126,15 +128,16 @@
                 android:layout_weight="1"
                 android:minHeight="?actionBarSize"
                 android:padding="@dimen/appbar_padding"
-                android:text="Current temp: 70"
+                android:text="Current temp"
                 android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
 
             <ImageView
+                android:id="@+id/image3"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_gravity="center"
-                android:src="@drawable/ac_off" />
+                android:src="@drawable/fan_off" />
         </LinearLayout>
 
         <Button
@@ -157,4 +160,4 @@
 <!--        android:layout_margin="@dimen/fab_margin"-->
 <!--        app:srcCompat="@android:drawable/ic_dialog_email" />-->
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
