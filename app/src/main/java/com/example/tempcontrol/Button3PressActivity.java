@@ -42,7 +42,7 @@ public class Button3PressActivity extends AppCompatActivity {
             public void onClick(View view) {
                 demo.setTemp(DesiredTempEdt.getText().toString().trim());
 
-                databaseReference.child("room2").setValue(demo);
+                databaseReference.child("room2").setValue(demo.getTemp());
                 Toast.makeText(Button3PressActivity.this, "desired temp added", Toast.LENGTH_SHORT).show();
             }
         });
