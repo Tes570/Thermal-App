@@ -35,7 +35,7 @@ public class ButtonPressActivity extends AppCompatActivity {
 
         demo = new Demo();
 
-        databaseReference = FirebaseDatabase.getInstance().getReference().child("Demo");
+        databaseReference = FirebaseDatabase.getInstance().getReference().child("Demo").child("Room Setting");
 
         sendData.setOnClickListener(new View.OnClickListener() {
             @Override
