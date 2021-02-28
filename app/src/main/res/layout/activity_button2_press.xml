@@ -18,7 +18,7 @@
             android:gravity="center"
             android:minHeight="?actionBarSize"
             android:padding="@dimen/appbar_padding"
-            android:text="Bedroom 1"
+            android:text="Bedroom 2"
             android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -53,7 +53,6 @@
             android:layout_marginHorizontal="10dp"
             android:layout_gravity="center|top"
             android:hint="Enter desired temperature"
-            android:importantForAutofill="no"
             android:inputType="text"/>
 
         <Button
