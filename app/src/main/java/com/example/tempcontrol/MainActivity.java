@@ -109,13 +109,6 @@ public class MainActivity extends AppCompatActivity {
         retriveB2 = (TextView)findViewById(R.id.B2Current);
         retriveB3 = (TextView)findViewById(R.id.B3Current);
 
-        //This is to set the variables in firebase. Run this to reset the room temp.
-        int tes = 70;
-        for(int i = 0; i < RoomNum; ++i)
-        {
-            GetValues.child("room" + String.valueOf(i)).setValue(tes);
-            PostValues.child("room" + String.valueOf(i)).setValue(tes);
-        }
 
         //How to get the variable from firebase? Look at onStart
 
