@@ -1,0 +1,28 @@
+com/example/tempcontrol/BuildConfig.java
+ com.example.tempcontrol.BuildConfig
+com/example/tempcontrol/ui/main/PageViewModel.java
+ com.example.tempcontrol.ui.main.PageViewModel
+ com.example.tempcontrol.ui.main.PageViewModel$1
+com/example/tempcontrol/ui/main/PlaceholderFragment.java
+ com.example.tempcontrol.ui.main.PlaceholderFragment
+ com.example.tempcontrol.ui.main.PlaceholderFragment$1
+com/example/tempcontrol/ButtonPressActivity.java
+ com.example.tempcontrol.ButtonPressActivity
+ com.example.tempcontrol.ButtonPressActivity$1
+com/example/tempcontrol/ui/main/SectionsPagerAdapter.java
+ com.example.tempcontrol.ui.main.SectionsPagerAdapter
+com/example/tempcontrol/Demo.java
+ com.example.tempcontrol.Demo
+com/example/tempcontrol/Button2PressActivity.java
+ com.example.tempcontrol.Button2PressActivity
+ com.example.tempcontrol.Button2PressActivity$1
+com/example/tempcontrol/Button3PressActivity.java
+ com.example.tempcontrol.Button3PressActivity
+ com.example.tempcontrol.Button3PressActivity$1
+com/example/tempcontrol/MainActivity.java
+ com.example.tempcontrol.MainActivity
+ com.example.tempcontrol.MainActivity$1
+ com.example.tempcontrol.MainActivity$2
+ com.example.tempcontrol.MainActivity$3
+ com.example.tempcontrol.MainActivity$4
+ com.example.tempcontrol.MainActivity$5
